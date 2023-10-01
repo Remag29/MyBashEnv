@@ -7,7 +7,7 @@ This project permits me to automatically configure my bash environment on a new 
 You can clone the project and run the script `install.sh` to install the environment.
 
 ```bash
-git clone
+git clone https://github.com/Remag29/MyBashEnv.git
 ```
 
 ```bash
