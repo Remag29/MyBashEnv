@@ -38,3 +38,12 @@ echo "  |--> Downloading Starship config file..."
 mkdir -p ~/.config
 wget https://raw.githubusercontent.com/Remag29/MyCustomShell/main/bash/starship.toml -q
 mv starship.toml ~/.config/
+
+# Install and configure Bat
+## Install Bat
+echo "Installing Bat..."
+sudo apt install bat -y
+
+## Replace cat with bat
+echo "  |--> Replacing cat with bat..."
+echo 'alias cat="batcat --paging=never"' >> ~/.bashrc
